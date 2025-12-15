@@ -19,7 +19,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 订阅链接列表
 links = [
-    "https://ghproxy.net/https://raw.githubusercontent.com/xiaoer8867785/jddy5/main/data/{Y_m_d}/{x}.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/Roywaller/clash_subscription/refs/heads/main/clash_subscription.txt",
     "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml",
@@ -32,15 +31,13 @@ links = [
     "https://ghproxy.net/https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml",
     "https://ghproxy.net/https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml",
     "https://ghproxy.net/https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/节点",
     "https://ghproxy.net/https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/leetomlee123/freenode/refs/heads/main/README.md",
     "https://ghproxy.net/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
     "https://ghproxy.net/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
     "https://ghproxy.net/https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/mai19950/clashgithub_com/refs/heads/main/site",
-    "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml",
+    "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash{Ymd}.yml",
     "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md",
     "https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",
     "https://ghproxy.net/https://raw.githubusercontent.com/shahidbhutta/Clash/refs/heads/main/Router",
@@ -49,14 +46,11 @@ links = [
     "https://ghproxy.net/https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt",
     "https://ghproxy.net/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
     "https://ghproxy.net/https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-    "https://api.mxlweb.xyz/sub?target=clash&url=https://www.xrayvip.com/free.yaml&insert=false",
-    "https://api.mxlweb.xyz/sub?target=clash&url=https://mxlsub.me/free&insert=false",
     "https://www.freeclashnode.com/uploads/{Y}/{m}/0-{Ymd}.yaml",
     "https://www.freeclashnode.com/uploads/{Y}/{m}/1-{Ymd}.yaml",
     "https://www.freeclashnode.com/uploads/{Y}/{m}/2-{Ymd}.yaml",
@@ -66,28 +60,11 @@ links = [
     "https://proxypool.link/trojan/sub",
     "https://proxypool.link/ss/sub",
     "https://proxypool.link/vmess/sub",
-    "https://mxlsub.me/newfull",
-    "https://igdux.top/5Hna",
     "https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
     "https://ghproxy.net/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
     "https://ghproxy.net/https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify1.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify2.txt",
     "https://ghproxy.net/https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify3.txt",
 ]
-
-# 测试使用
-# links = [
-#     "https://ghproxy.net/https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml",
-#     "https://ghproxy.net/https://raw.githubusercontent.com/Roywaller/clash_subscription/refs/heads/main/clash_subscription.txt",
-#     "https://www.freeclashnode.com/uploads/{Y}/{m}/0-{Ymd}.yaml",
-#     "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml",
-#     "https://ghproxy.net/https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/LogInfo.txt",
-#     'https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
-#     'https://ghproxy.net/https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt',
-#     'https://ghproxy.net/https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify1.txt',
-#    ]
 
 # 支持的协议类型列表
 SUPPORTED_PROTOCOLS = [
