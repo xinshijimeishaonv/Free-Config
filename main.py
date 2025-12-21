@@ -19,8 +19,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 订阅链接列表
 links = [
-    "https://raw.githubusercontent.com/1wyy/tg_mfbpn_sub/refs/heads/main/trial", 
-    "https://raw.githubusercontent.com/luochen1975/x.sub/refs/heads/main/trial", 
     "https://raw.githubusercontent.com/luochen1975/jichangnodes/refs/heads/main/trial", 
 ]
 
