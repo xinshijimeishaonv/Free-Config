@@ -20,6 +20,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # 订阅链接列表
 links = [
     "https://raw.githubusercontent.com/luochen1975/jichangnodes/refs/heads/main/trial", 
+    'https://sub.789.st/sub?target=v2ray&url=https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml&sort=true&_=1710174203726',
+    'https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary',
+    'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub',
+    'https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub',
+    'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
+    "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt",
 ]
 
 # 支持的协议类型列表
